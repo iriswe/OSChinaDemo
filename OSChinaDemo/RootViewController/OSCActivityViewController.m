@@ -1,30 +1,28 @@
 //
-//  OSCBaseViewController.m
+//  OSCActivityViewController.m
 //  OSChinaDemo
 //
-//  Created by ludashen on 2016/12/15.
+//  Created by ludashen on 2016/12/21.
 //  Copyright © 2016年 ludashen. All rights reserved.
 //
 
-#import "OSCBaseViewController.h"
+#import "OSCActivityViewController.h"
 
-@interface OSCBaseViewController ()
+@interface OSCActivityViewController ()
 
 @end
 
-@implementation OSCBaseViewController
+@implementation OSCActivityViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    // Do any additional setup after loading the view from its nib.
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
-
 
 /*
 #pragma mark - Navigation

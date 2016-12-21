@@ -1,30 +1,28 @@
 //
-//  OSCBaseViewController.m
+//  OSCDiscoverViewController.m
 //  OSChinaDemo
 //
-//  Created by ludashen on 2016/12/15.
+//  Created by ludashen on 2016/12/21.
 //  Copyright © 2016年 ludashen. All rights reserved.
 //
 
-#import "OSCBaseViewController.h"
+#import "OSCDiscoverViewController.h"
 
-@interface OSCBaseViewController ()
+@interface OSCDiscoverViewController ()
 
 @end
 
-@implementation OSCBaseViewController
+@implementation OSCDiscoverViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    // Do any additional setup after loading the view from its nib.
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
-
 
 /*
 #pragma mark - Navigation

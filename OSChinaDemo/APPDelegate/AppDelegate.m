@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "RDVTabBarController.h"
+#import "OSCTabBarViewController.h"
 
 @interface AppDelegate ()
 
@@ -20,15 +20,14 @@
     // Override point for customization after application launch.
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen]. bounds];
     [self showViewController];
-    self.window.rootViewController =;
     [self.window makeKeyAndVisible];
     return YES;
 }
 
 - (void)showViewController
 {
-    RDVTabBarController *tabBarViewController = [[RDVTabBarController alloc] init];
-    tabBarViewController.viewControllers = 
+    OSCTabBarViewController *tabBarVC = [[OSCTabBarViewController alloc] init];
+    self.window.rootViewController = tabBarVC;
 }
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

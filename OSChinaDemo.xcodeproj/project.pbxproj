@@ -12,8 +12,19 @@
 		C30F46071E02E2B9009E88B7 /* AppearanceSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = C30F46031E02E2B9009E88B7 /* AppearanceSetting.m */; };
 		C30F460F1E02E4BA009E88B7 /* OSCBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C30F460E1E02E4BA009E88B7 /* OSCBaseViewController.m */; };
 		C30F46121E02E4EE009E88B7 /* OSCBaseNaviViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C30F46111E02E4EE009E88B7 /* OSCBaseNaviViewController.m */; };
+		C320D39F1E0AA9BB00EB3306 /* OSCTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C320D39E1E0AA9BB00EB3306 /* OSCTabBarViewController.m */; };
+		C320D3A31E0AB1CC00EB3306 /* OSCCombineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C320D3A11E0AB1CC00EB3306 /* OSCCombineViewController.m */; };
+		C320D3A41E0AB1CC00EB3306 /* OSCCombineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C320D3A21E0AB1CC00EB3306 /* OSCCombineViewController.xib */; };
+		C320D3A81E0AB23500EB3306 /* OSCActivityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C320D3A61E0AB23500EB3306 /* OSCActivityViewController.m */; };
+		C320D3A91E0AB23500EB3306 /* OSCActivityViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C320D3A71E0AB23500EB3306 /* OSCActivityViewController.xib */; };
+		C320D3AD1E0AB2AB00EB3306 /* OSCPblishViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C320D3AB1E0AB2AB00EB3306 /* OSCPblishViewController.m */; };
+		C320D3AE1E0AB2AB00EB3306 /* OSCPblishViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C320D3AC1E0AB2AB00EB3306 /* OSCPblishViewController.xib */; };
+		C320D3B21E0AB2E100EB3306 /* OSCDiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C320D3B01E0AB2E100EB3306 /* OSCDiscoverViewController.m */; };
+		C320D3B31E0AB2E100EB3306 /* OSCDiscoverViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C320D3B11E0AB2E100EB3306 /* OSCDiscoverViewController.xib */; };
+		C320D3B71E0AB2FA00EB3306 /* OSCAboutMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C320D3B51E0AB2FA00EB3306 /* OSCAboutMeViewController.m */; };
+		C320D3B81E0AB2FA00EB3306 /* OSCAboutMeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C320D3B61E0AB2FA00EB3306 /* OSCAboutMeViewController.xib */; };
+		C320D3C31E0AC50400EB3306 /* UIViewController+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = C320D3C21E0AC50400EB3306 /* UIViewController+Common.m */; };
 		C35690871DFBB5330051D373 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C35690861DFBB5330051D373 /* main.m */; };
-		C356908D1DFBB5330051D373 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C356908C1DFBB5330051D373 /* ViewController.m */; };
 		C35690901DFBB5330051D373 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C356908E1DFBB5330051D373 /* Main.storyboard */; };
 		C35690951DFBB5330051D373 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C35690931DFBB5330051D373 /* LaunchScreen.storyboard */; };
 		C35690A01DFBB5330051D373 /* OSChinaDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C356909F1DFBB5330051D373 /* OSChinaDemoTests.m */; };
@@ -50,10 +61,27 @@
 		C30F460E1E02E4BA009E88B7 /* OSCBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSCBaseViewController.m; sourceTree = "<group>"; };
 		C30F46101E02E4EE009E88B7 /* OSCBaseNaviViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSCBaseNaviViewController.h; sourceTree = "<group>"; };
 		C30F46111E02E4EE009E88B7 /* OSCBaseNaviViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSCBaseNaviViewController.m; sourceTree = "<group>"; };
+		C320D39D1E0AA9BB00EB3306 /* OSCTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSCTabBarViewController.h; sourceTree = "<group>"; };
+		C320D39E1E0AA9BB00EB3306 /* OSCTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSCTabBarViewController.m; sourceTree = "<group>"; };
+		C320D3A01E0AB1CC00EB3306 /* OSCCombineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSCCombineViewController.h; sourceTree = "<group>"; };
+		C320D3A11E0AB1CC00EB3306 /* OSCCombineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSCCombineViewController.m; sourceTree = "<group>"; };
+		C320D3A21E0AB1CC00EB3306 /* OSCCombineViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OSCCombineViewController.xib; sourceTree = "<group>"; };
+		C320D3A51E0AB23500EB3306 /* OSCActivityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSCActivityViewController.h; sourceTree = "<group>"; };
+		C320D3A61E0AB23500EB3306 /* OSCActivityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSCActivityViewController.m; sourceTree = "<group>"; };
+		C320D3A71E0AB23500EB3306 /* OSCActivityViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OSCActivityViewController.xib; sourceTree = "<group>"; };
+		C320D3AA1E0AB2AB00EB3306 /* OSCPblishViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSCPblishViewController.h; sourceTree = "<group>"; };
+		C320D3AB1E0AB2AB00EB3306 /* OSCPblishViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSCPblishViewController.m; sourceTree = "<group>"; };
+		C320D3AC1E0AB2AB00EB3306 /* OSCPblishViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OSCPblishViewController.xib; sourceTree = "<group>"; };
+		C320D3AF1E0AB2E100EB3306 /* OSCDiscoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSCDiscoverViewController.h; sourceTree = "<group>"; };
+		C320D3B01E0AB2E100EB3306 /* OSCDiscoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSCDiscoverViewController.m; sourceTree = "<group>"; };
+		C320D3B11E0AB2E100EB3306 /* OSCDiscoverViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OSCDiscoverViewController.xib; sourceTree = "<group>"; };
+		C320D3B41E0AB2FA00EB3306 /* OSCAboutMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSCAboutMeViewController.h; sourceTree = "<group>"; };
+		C320D3B51E0AB2FA00EB3306 /* OSCAboutMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSCAboutMeViewController.m; sourceTree = "<group>"; };
+		C320D3B61E0AB2FA00EB3306 /* OSCAboutMeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OSCAboutMeViewController.xib; sourceTree = "<group>"; };
+		C320D3C11E0AC50400EB3306 /* UIViewController+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Common.h"; sourceTree = "<group>"; };
+		C320D3C21E0AC50400EB3306 /* UIViewController+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Common.m"; sourceTree = "<group>"; };
 		C35690821DFBB5330051D373 /* OSChinaDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OSChinaDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C35690861DFBB5330051D373 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C356908B1DFBB5330051D373 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C356908C1DFBB5330051D373 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C356908F1DFBB5330051D373 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C35690941DFBB5330051D373 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C35690961DFBB5330051D373 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -131,6 +159,40 @@
 			path = BaseClass;
 			sourceTree = "<group>";
 		};
+		C320D3991E0AA86E00EB3306 /* RootViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C320D39D1E0AA9BB00EB3306 /* OSCTabBarViewController.h */,
+				C320D39E1E0AA9BB00EB3306 /* OSCTabBarViewController.m */,
+				C320D3A01E0AB1CC00EB3306 /* OSCCombineViewController.h */,
+				C320D3A11E0AB1CC00EB3306 /* OSCCombineViewController.m */,
+				C320D3A21E0AB1CC00EB3306 /* OSCCombineViewController.xib */,
+				C320D3A51E0AB23500EB3306 /* OSCActivityViewController.h */,
+				C320D3A61E0AB23500EB3306 /* OSCActivityViewController.m */,
+				C320D3A71E0AB23500EB3306 /* OSCActivityViewController.xib */,
+				C320D3AA1E0AB2AB00EB3306 /* OSCPblishViewController.h */,
+				C320D3AB1E0AB2AB00EB3306 /* OSCPblishViewController.m */,
+				C320D3AC1E0AB2AB00EB3306 /* OSCPblishViewController.xib */,
+				C320D3AF1E0AB2E100EB3306 /* OSCDiscoverViewController.h */,
+				C320D3B01E0AB2E100EB3306 /* OSCDiscoverViewController.m */,
+				C320D3B11E0AB2E100EB3306 /* OSCDiscoverViewController.xib */,
+				C320D3B41E0AB2FA00EB3306 /* OSCAboutMeViewController.h */,
+				C320D3B51E0AB2FA00EB3306 /* OSCAboutMeViewController.m */,
+				C320D3B61E0AB2FA00EB3306 /* OSCAboutMeViewController.xib */,
+			);
+			path = RootViewController;
+			sourceTree = "<group>";
+		};
+		C320D3BA1E0AC23100EB3306 /* Categoris */ = {
+			isa = PBXGroup;
+			children = (
+				C320D3C11E0AC50400EB3306 /* UIViewController+Common.h */,
+				C320D3C21E0AC50400EB3306 /* UIViewController+Common.m */,
+			);
+			name = Categoris;
+			path = RootViewController/Categoris;
+			sourceTree = "<group>";
+		};
 		C35690791DFBB5330051D373 = {
 			isa = PBXGroup;
 			children = (
@@ -158,8 +220,8 @@
 			children = (
 				C30F45FF1E02E2B9009E88B7 /* APPDelegate */,
 				C30F46091E02E2CD009E88B7 /* BaseClass */,
-				C356908B1DFBB5330051D373 /* ViewController.h */,
-				C356908C1DFBB5330051D373 /* ViewController.m */,
+				C320D3991E0AA86E00EB3306 /* RootViewController */,
+				C320D3BA1E0AC23100EB3306 /* Categoris */,
 				C356908E1DFBB5330051D373 /* Main.storyboard */,
 				C35690931DFBB5330051D373 /* LaunchScreen.storyboard */,
 				C35690961DFBB5330051D373 /* Info.plist */,
@@ -304,8 +366,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C320D3B31E0AB2E100EB3306 /* OSCDiscoverViewController.xib in Resources */,
 				C35690951DFBB5330051D373 /* LaunchScreen.storyboard in Resources */,
 				C3F8D1381E019AAD005D49E3 /* Assets.xcassets in Resources */,
+				C320D3A91E0AB23500EB3306 /* OSCActivityViewController.xib in Resources */,
+				C320D3A41E0AB1CC00EB3306 /* OSCCombineViewController.xib in Resources */,
+				C320D3AE1E0AB2AB00EB3306 /* OSCPblishViewController.xib in Resources */,
+				C320D3B81E0AB2FA00EB3306 /* OSCAboutMeViewController.xib in Resources */,
 				C35690901DFBB5330051D373 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -379,12 +446,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C320D39F1E0AA9BB00EB3306 /* OSCTabBarViewController.m in Sources */,
+				C320D3C31E0AC50400EB3306 /* UIViewController+Common.m in Sources */,
 				C30F46071E02E2B9009E88B7 /* AppearanceSetting.m in Sources */,
-				C356908D1DFBB5330051D373 /* ViewController.m in Sources */,
 				C30F460F1E02E4BA009E88B7 /* OSCBaseViewController.m in Sources */,
+				C320D3B71E0AB2FA00EB3306 /* OSCAboutMeViewController.m in Sources */,
 				C30F46121E02E4EE009E88B7 /* OSCBaseNaviViewController.m in Sources */,
 				C35690871DFBB5330051D373 /* main.m in Sources */,
+				C320D3A31E0AB1CC00EB3306 /* OSCCombineViewController.m in Sources */,
 				C30F46061E02E2B9009E88B7 /* AppDelegate.m in Sources */,
+				C320D3B21E0AB2E100EB3306 /* OSCDiscoverViewController.m in Sources */,
+				C320D3A81E0AB23500EB3306 /* OSCActivityViewController.m in Sources */,
+				C320D3AD1E0AB2AB00EB3306 /* OSCPblishViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
