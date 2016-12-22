@@ -14,21 +14,28 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
+  - pop (1.0.9)
   - RDVTabBarController (1.1.9)
-  - SDWebImage (4.0.0-beta2):
-    - SDWebImage/Core (= 4.0.0-beta2)
-  - SDWebImage/Core (4.0.0-beta2)
+  - SDCycleScrollView (1.65):
+    - SDWebImage (~> 3.7)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
 
 DEPENDENCIES:
   - AFNetworking (~> 3.1.0)
+  - pop (~> 1.0.9)
   - RDVTabBarController (~> 1.1.9)
-  - SDWebImage (~> 4.0.0-beta2)
+  - SDCycleScrollView (~> 1.65)
+  - SDWebImage (~> 3.8.2)
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  pop: f667631a5108a2e60d9e8797c9b32ddaf2080bce
   RDVTabBarController: 67794f7a7a37f8e32f046f85ac67d06ab92d624a
-  SDWebImage: e379f33106cf8d6766f970c0ef1c3fb609c94d78
+  SDCycleScrollView: f72904c77698a7f93a41bcbbc2d78b073bf7326c
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
 
-PODFILE CHECKSUM: a228c5191f5ff366ef25589803c2f5b919161e25
+PODFILE CHECKSUM: bd5977b70e92ae597f958a961ab344b6c8058a64
 
 COCOAPODS: 1.1.1
