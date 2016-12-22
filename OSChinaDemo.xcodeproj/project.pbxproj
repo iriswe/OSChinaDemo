@@ -80,6 +80,7 @@
 		C320D3B61E0AB2FA00EB3306 /* OSCAboutMeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OSCAboutMeViewController.xib; sourceTree = "<group>"; };
 		C320D3C11E0AC50400EB3306 /* UIViewController+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Common.h"; sourceTree = "<group>"; };
 		C320D3C21E0AC50400EB3306 /* UIViewController+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Common.m"; sourceTree = "<group>"; };
+		C34901C61E0C1C4800077083 /* OSCAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSCAPI.h; sourceTree = "<group>"; };
 		C35690821DFBB5330051D373 /* OSChinaDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OSChinaDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C35690861DFBB5330051D373 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C356908F1DFBB5330051D373 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -144,6 +145,7 @@
 				C30F46011E02E2B9009E88B7 /* AppDelegate.m */,
 				C30F46021E02E2B9009E88B7 /* AppearanceSetting.h */,
 				C30F46031E02E2B9009E88B7 /* AppearanceSetting.m */,
+				C34901C61E0C1C4800077083 /* OSCAPI.h */,
 			);
 			path = APPDelegate;
 			sourceTree = "<group>";
