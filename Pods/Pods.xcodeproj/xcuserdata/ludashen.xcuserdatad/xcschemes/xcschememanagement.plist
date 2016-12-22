@@ -9,6 +9,21 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>MJExtension.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>MJRefresh.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Masonry.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-OSChinaDemo.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -29,6 +44,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>UITableView+FDTemplateLayoutCell.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>pop.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -37,17 +57,32 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>41A8473CEC2BFD9BC4A74C880A064C63</key>
+		<key>04CF549EBEEE7BC87AEAE35397184D94</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>8812CC025666B8B71E794C45050C7ACA</key>
+		<key>2E0863325F696A540E3E28E97DE7C715</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>8D161C5F7B873BA21472DFE9DEB79756</key>
+		<key>4BDEAC5D582002364BC28B6922E838F7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4CEA2340753FA3F6D974857E2B84D517</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4CF4BA059DD2927F84F16BB5C82D5420</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9DC8D9E02903E93BD0B2FEC9D846EA20</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -57,12 +92,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C7C0183AA192F3059E4640A99F1FC9D8</key>
+		<key>A316B54C67E947D23CECD230FA5BFAEF</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C957391C4A5953010295CDEEC476CD01</key>
+		<key>B7CCC677207A8607AA3FDB2697C0A99E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D81E23EA66B8919C77F4981354157939</key>
 		<dict>
 			<key>primary</key>
 			<true/>
