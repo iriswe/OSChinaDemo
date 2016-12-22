@@ -19,6 +19,25 @@
     // Do any additional setup after loading the view.
 }
 
+- (BOOL)shouldAutorotate
+{
+    return [self.visibleViewController shouldAutorotate];
+}
+
+- (BOOL)prefersStatusBarHidden
+{
+    return [self.visibleViewController preferredInterfaceOrientationForPresentation];
+}
+
+- (UIInterfaceOrientationMask)supportedInterfaceOrientations
+{
+    if (![self.visibleViewController isKindOfClass:[UIAlertController class]]) {
+        return [self.visibleViewController supportedInterfaceOrientations];
+    } else {
+        return UIInterfaceOrientationMaskPortrait;
+    }
+}
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
